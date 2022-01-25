@@ -34,7 +34,34 @@ html {
   font-size: 12px;
 }
 
+<<<<<<< HEAD
 .icono {
   font-size: 2em;
   margin-bottom: 10px;
+=======
+/* Tamaño de las imagenes */
+
+.img-cafetera {
+  width: 150px;
+  height: 150px;
+}
+
+.img-macbook {
+  width: 150px;
+  height: 150px;
+}
+
+.img-samgung {
+  width: 150px;
+  height: 150px;
+}
+.img-tv-samsung {
+  width: 150px;
+  height: 150px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+>>>>>>> 504909ee145336fcfbfee20f132ffa3d5d5d930f
 }
