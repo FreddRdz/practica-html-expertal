@@ -33,3 +33,29 @@ html {
 .cuerpo-texto {
   font-size: 12px;
 }
+
+/* Tamaño de las imagenes */
+
+.img-cafetera {
+  width: 150px;
+  height: 150px;
+}
+
+.img-macbook {
+  width: 150px;
+  height: 150px;
+}
+
+.img-samgung {
+  width: 150px;
+  height: 150px;
+}
+.img-tv-samsung {
+  width: 150px;
+  height: 150px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+}
