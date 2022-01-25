@@ -1,3 +1,13 @@
+/* Variables de colores */
+:root {
+  --color-amarrillo: #eac926;
+  --color-azul: #03264c;
+  --color-celeste: #1259c3;
+  --color-gris-oscuro: #666;
+  --color-gris-claro: #ebebeb;
+  --color-verde: #39b54a;
+}
+
 html {
   font-family: "Roboto", sans-serif;
 }
