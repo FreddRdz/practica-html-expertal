@@ -60,6 +60,17 @@ html {
   height: 150px;
 }
 
+/* Main */
+.main {
+  width: 90%;
+  text-align: center;
+}
+
+.main-articulo {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /* Footer */
 .footer {
   text-align: center;
