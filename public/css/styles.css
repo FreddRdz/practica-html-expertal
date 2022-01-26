@@ -1,77 +1,88 @@
 /* Variables de colores */
+
 :root {
-  --color-amarrillo: #eac926;
-  --color-azul: #03264c;
-  --color-celeste: #1259c3;
-  --color-gris-oscuro: #666;
-  --color-gris-claro: #ebebeb;
-  --color-verde: #39b54a;
+    --color-amarrillo: #eac926;
+    --color-azul: #03264c;
+    --color-celeste: #1259c3;
+    --color-gris-oscuro: #666;
+    --color-gris-claro: #ebebeb;
+    --color-verde: #39b54a;
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
 }
+
 
 /* Tamaños tipográficos */
 
 .titulares {
-  font-size: 24px;
+    font-size: 24px;
 }
 
 .precios {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .descuentos {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .descripciones {
-  font-size: 16px;
+    font-size: 16px;
 }
 
 .cuerpo-texto {
-  font-size: 12px;
+    font-size: 12px;
 }
 
 .icono {
-  font-size: 2em;
-  margin-bottom: 10px;
+    font-size: 2em;
+    margin-bottom: 10px;
 }
+
 
 /* Tamaño de las imagenes */
 
 .img-cafetera {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 .img-macbook {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
 .img-samgung {
-  width: 150px;
-  height: 150px;
-}
-.img-tv-samsung {
-  width: 150px;
-  height: 150px;
+    width: 150px;
+    height: 150px;
 }
 
+.img-tv-samsung {
+    width: 150px;
+    height: 150px;
+}
+
+
 /* Main */
+
 .main {
-  width: 90%;
-  text-align: center;
+    width: 90%;
+    text-align: center;
 }
 
 .main-articulo {
-  margin-top: 5px;
-  margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-top: 1px solid;
+    border-color: #ebebeb;
+    padding: 15px;
 }
 
+
 /* Footer */
+
 .footer {
-  text-align: center;
+    text-align: center #ebebeb;
 }
