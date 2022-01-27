@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+  </head>
+  <body>
+    <form action="/" method="GET">
+      <label for="nombreCompleto">Nombre y Apellido</label>
+      <input type="text" name="nombreCompleto" id="nombreCompleto" required />
+      <br /><br />
+
+      <label for="nombreUsuario">Nombre de usuari@</label>
+      <input type="text" name="nombreUsuario" id="nombreUsuario" />
+      <br /><br />
+
+      <label for="fechaNacimiento">Fecha de nacimiento</label>
+      <input type="date" name="fechaNacimiento" id="fechaNacimiento" />
+      <br /><br />
+
+      <label for="domicilioUsuario">Domicilio del usuario</label>
+      <input type="text" name="domicilioUsuario" id="domicilioUsuario" />
+      <br /><br />
+
+      <fieldset>
+        <legend>Perfil de usuario</legend>
+        <label for="perfilUsario">Vendedor</label>
+        <input type="radio" name="perfilUsario" id="vendedor" />
+        <br /><br />
+
+        <label for="">Comprador</label>
+        <input type="radio" name="perfilUsario" id="comprador" />
+        <br /><br />
+      </fieldset>
+
+      <fieldset>
+        <legend>Categorías de interés</legend>
+        <label for="catInteres">Electronica</label>
+        <input type="checkbox" name="perfilUsario" value="electro" />
+        <br /><br />
+
+        <label for="catInteres">Moda</label>
+        <input type="checkbox" name="perfilUsario" value="moda" />
+        <br /><br />
+
+        <label for="catInteres">Hogar</label>
+        <input type="checkbox" name="perfilUsario" value="hogar" />
+        <br /><br />
+
+        <label for="catInteres">Jugueteria</label>
+        <input type="checkbox" name="perfilUsario" value="jugueteria" />
+        <br /><br />
+
+        <label for="catInteres">Vida sana</label>
+        <input type="checkbox" name="perfilUsario" value="vidaSana" />
+        <br /><br />
+      </fieldset>
+
+      <label for="fotoUsuario">Foto de usario</label>
+      <input type="file" name="fotoUsuario" id="fotoUsuario" />
+      <br /><br />
+
+      <label for="nombreUsuario">Contraseña</label>
+      <input type="text" name="nombreUsuario" id="nombreUsuario" />
+      <br /><br />
+
+      <label for="repeatPassword">Confirme contraseña</label>
+      <input type="password" name="repeatPassword" id="repeatPassword" />
+      <br /><br />
+
+      <button type="submit">Envíar</button>
+      <br /><br />
+      <button type="reset">Reset</button>
+      <br /><br />
+    </form>
+  </body>
+</html>
