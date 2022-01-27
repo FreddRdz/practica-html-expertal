@@ -1,4 +1,9 @@
 /* Variables de colores */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
 
 :root {
   --color-amarrillo: #eac926;
@@ -10,7 +15,7 @@
 }
 
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Tamaños tipográficos */
@@ -19,12 +24,27 @@ html {
   font-size: 24px;
 }
 
+.logo {
+  width: 50%;
+}
+
+.searcher {
+  width: 50%;
+}
+
+.precio-descuentos {
+  display: flex;
+  justify-content: space-around;
+}
+
 .precios {
   font-size: 18px;
+  width: 30%;
 }
 
 .descuentos {
   font-size: 16px;
+  width: 70%;
 }
 
 .descripciones {
@@ -67,6 +87,14 @@ html {
 .main {
   width: 90%;
   text-align: center;
+}
+
+.list-articles-basado,
+.list-articles-ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;
+  justify-content: center;
 }
 
 .main-articulo {
